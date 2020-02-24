@@ -15,6 +15,10 @@ module.exports = {
             {
                 test: /\.(svg|png|jpg|gif)$/,
                 use: ['file-loader']
+            },
+            {
+                test: /\.xml$/,
+                use:['xml-loader']
             }
         ]
     }

@@ -1,4 +1,4 @@
 .hello{
     color: red;
-    background: url('./webpackLogo.png')
+    background: url('./webpackLogo.png') no-repeat;
 }

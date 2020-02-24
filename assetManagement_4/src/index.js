@@ -1,5 +1,6 @@
    import './styles.css'
    import Logo from './webpackLogo.png'
+   import DataXML from './data.xml'
    
    const  appContainerElement = document.getElementById("appContainer")
    const myLogo = new Image();
@@ -9,6 +10,7 @@
    appContainerElement.innerHTML= 'Welcome to webpack  tutorial ';
    appContainerElement.classList.add('hello');
    appContainerElement.appendChild(myLogo);
+   
 
 
    
