@@ -1,1 +1,1 @@
-    document.getElementById("appContainer").innerHTML= 'scripts loaded from dist folder';
+    document.getElementById("appContainer").innerHTML= 'Welcome to webpack  tutorial ';
