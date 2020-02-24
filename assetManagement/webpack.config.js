@@ -10,7 +10,11 @@ module.exports = {
         rules: [
             {
                 test: /\.css$/,
-                use: ['style-loader', 'css-loader']
+                use: ['style-loader', 'css-loader'] // css loader to parse the file path and style loader will add as style tag in html.
+            },
+            {
+                test: /\.(svg|png|jpg|gif)$/,
+                use: ['file-loader']
             }
         ]
     }
