@@ -6,8 +6,8 @@
    myLogo.src = 'dist/'+Logo;
 
 
-   // appContainerElement.innerHTML= 'Welcome to webpack  tutorial ';
-   // appContainerElement.classList.add('hello');
+   appContainerElement.innerHTML= 'Welcome to webpack  tutorial ';
+   appContainerElement.classList.add('hello');
    appContainerElement.appendChild(myLogo);
 
 
