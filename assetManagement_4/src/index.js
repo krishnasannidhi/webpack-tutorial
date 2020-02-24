@@ -3,7 +3,7 @@
    
    const  appContainerElement = document.getElementById("appContainer")
    const myLogo = new Image();
-   myLogo.src = 'dist/'+Logo;
+   myLogo.src = Logo;
 
 
    appContainerElement.innerHTML= 'Welcome to webpack  tutorial ';
